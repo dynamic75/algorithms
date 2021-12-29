@@ -4,7 +4,7 @@ let arr2 = [...arr1];
 let arr3 = [...arr2, 7, 10, 6, 9, 8];
 
 // bubble sorting function
-let sort = (a) => {
+const sort = (a) => {
   for(let i = 0; i < a.length; i++) {
     //console.log('Outer loop', i)
     for(let j = 0; j < a.length; j++) {
